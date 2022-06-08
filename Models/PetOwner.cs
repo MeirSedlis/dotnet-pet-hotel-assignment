@@ -12,6 +12,10 @@ namespace pet_hotel
         [Required]
         public string ownerName {get; set;}
 
-        public string email {get; set;}
+        [Required]
+        public string emailAddress {get; set;}
+
+        // [NotMapped][JsonIgnore]
+        // public int petCount {get; set;}
     }
 }
