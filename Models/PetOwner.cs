@@ -5,5 +5,13 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace pet_hotel
 {
-    public class PetOwner {}
+    public class PetOwner 
+    {
+        public int id {get; set;}
+
+        [Required]
+        public string ownerName {get; set;}
+
+        public string email {get; set;}
+    }
 }
