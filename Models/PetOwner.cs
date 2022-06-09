@@ -10,7 +10,7 @@ namespace pet_hotel
         public int id {get; set;}
 
         [Required]
-        public string ownerName {get; set;}
+        public string name {get; set;}
 
         [Required]
         public string emailAddress {get; set;}
